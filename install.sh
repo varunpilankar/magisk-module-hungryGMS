@@ -21,11 +21,11 @@
 
 # This will be the folder name under /magisk
 # This should also be the same as the id in your module.prop to prevent confusion
-MODID=magisk-module-hungryGMS
+#MODID=magisk-module-hungryGMS
 # Set to true if you do *NOT* want Magisk to mount
 # any files for you. Most modules would NOT want
 # to set this flag to true
-SKIPMOUNT=false
+SKIPMOUNT=true
 
 # Set to true if you need to load system.prop
 PROPFILE=false
@@ -34,7 +34,7 @@ PROPFILE=false
 POSTFSDATA=false
 
 # Set to true if you need late_start service script
-LATESTARTSERVICE=false
+LATESTARTSERVICE=true
 
 ##########################################################################################
 # Replace list
@@ -137,7 +137,7 @@ on_install() {
   # The following is the default implementation: extract $ZIPFILE/system to $MODPATH
   # Extend/change the logic to whatever you want
   ui_print "- Extracting module files"
-  unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+  unzip -o "$ZIPFILE" '*/service.sh' -d $MODPATH >&2
   ui_print "- deleting package cache"
   rm -rf /data/system/package_cache/*
 }
