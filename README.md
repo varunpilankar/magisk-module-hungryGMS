@@ -14,7 +14,7 @@ This module helps you squeeze some battery from GMS Services and help you run th
 ## Download Links
 - <img src="https://img.shields.io/badge/status:-available-green" />
 
-  - [GitHub Releases](https://hhd)
+  - [GitHub Releases](https://github.com/varunpilankar/magisk-module-hungryGMS/releases/tag/v1.0)
 
 ---
 ## Credits
