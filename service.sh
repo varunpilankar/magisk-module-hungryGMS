@@ -1,5 +1,7 @@
 #!/sbin/sh
 
+MODDIR=${0%/*}
+
 #Initial code and findings by author @varunpilankar 
 #Github:https://github.com/varunpilankar/magisk-module-hungryGMS
 
