@@ -1,7 +1,6 @@
-id=template
-name=Template Module
-version=v1
+id=magisk-module-hungryGMS
+name=Hungry GMS - Save Battery
+version=1.0
 versionCode=1
-author=topjohnwu
-description=A short description
-template=3
+author=varunpilankar
+description=Disable Google Play services app and its background processes to be able save battery and increase device standby.
