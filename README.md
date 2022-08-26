@@ -17,7 +17,7 @@ This module helps you squeeze some battery from GMS Services and help you run th
 
 ---
 ## Credits
-- [@gloeyisk] (https://github.com/gloeyisk) / Universal GMS Doze
+- [@gloeyisk](https://github.com/gloeyisk) / Universal GMS Doze
 - [@topjohnwu](https://github.com/topjohnwu) / Magisk - Magisk Module Template
 
 ---
