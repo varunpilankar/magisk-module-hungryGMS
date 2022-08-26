@@ -1,5 +1,8 @@
 #!/sbin/sh
 
+#Initial code and findings by author @varunpilankar 
+#Github:https://github.com/varunpilankar/magisk-module-hungryGMS
+
 # Sleep before the script executed (in seconds)
 sleep 110
 
