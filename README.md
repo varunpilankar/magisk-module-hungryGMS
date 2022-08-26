@@ -1,7 +1,8 @@
 # HungryGMS Magisk Module
 ---
-Optimize and disable GMS services that keep your device awake using hungry wakelock and alarms during device standby.
-This module helps you squeeze some battery from GMS Services and help you run the device for longer battery life and standby time.
+Optimize and disable GMS services which keep your device awake through hungry wakelocks and alarms during device standby.
+This module helps you squeeze some battery from GMS Services and help you run the device with longer battery life and standby time.
+
 ---
 ## Overview
 - Best to be used with universal-gms-doze by gloeyisk [GitHub Releases](https://m)
