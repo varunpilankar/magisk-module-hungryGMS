@@ -5,7 +5,7 @@ This module helps you squeeze some battery from GMS Services and help you run th
 
 ---
 ## Overview
-- Best to be used with universal-gms-doze by gloeyisk [GitHub Releases](https://m)
+- Best to be used with universal-gms-doze by gloeyisk [GitHub Releases](https://github.com/gloeyisk/universal-gms-doze/releases)
 - Patches Google Play services app and its background processes to be able to use battery optimization
 - Support API 23 or later
 - Support Magisk Live installations
